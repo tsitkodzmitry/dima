@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	padding: 0;
+	#line-height: 1.7em;
+	#font-family: Arial, Helvetica, sans-serif;
+	#font-size: 11px;
+	color: #dad5bf;
+    background: #2b2928 url(media/img/back_main_bg.jpg) repeat-x top;
+}
+.glav{
+	width: 100%;
+	background: url(media/img/back_main_bg_bottom_wrapper.jpg) no-repeat bottom center;
+}
