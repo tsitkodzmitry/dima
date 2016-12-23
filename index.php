@@ -60,6 +60,10 @@ else{
 					?>
 				</div>
 				<div class='blok3'>
+					<h3>Вход в сайт</h3>
+					<div class='ban'>
+						<h4><a href='reg.php'>Регистрация</a></h4>
+					</div>
 					<h3>Полезные сайты</h3>
                     <div class='ban'>
 						<ul>
