@@ -1,6 +1,6 @@
-﻿<?php 
+<?php 
 require_once('temples/top.php');
-require_once('config/config.php');
+
 
 
 if($_GET[url]){
@@ -62,7 +62,21 @@ else{
 				<div class='blok3'>
 					<h3>Вход в сайт</h3>
 					<div class='ban'>
+					<?php 
+					if ($_SESSION['id']){
+						echo "
+						<h4>Авторизация прошла</h4>
+						<h4><a class='btn-link-my' href='cabinet.php'>Кабинет пользователя</a></h4>
+						<h4><a href='logout.php'>Выход</a></h4>
+						";
+						}
+					else{
+						echo "
 						<h4><a href='reg.php'>Регистрация</a></h4>
+						<h4><a href='login.php'>Вход</a></h4>
+						";
+					}
+					?>
 					</div>
 					<h3>Полезные сайты</h3>
                     <div class='ban'>
